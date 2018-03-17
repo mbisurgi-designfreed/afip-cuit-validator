@@ -11,8 +11,8 @@ $ npm install --save afip-cuit-validator
 ## Usage
 
 ```js
-var afipCuitValidator = require('afip-cuit-validator');
-const valid = afipCuitValidator('21-13899255-2');
+const cuitValidator = require('afip-cuit-validator');
+const valid = cuitValidator('21-13899255-2');
 ```
 
 ## License
