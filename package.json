@@ -1,0 +1,15 @@
+{
+  "name": "afip-cuit-validator",
+  "version": "1.0.0",
+  "description": "Validacion de CUITs para personas fisicas y juridicas",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --watch"
+  },
+  "author": "Maximiliano Bisurgi",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.4"
+  }
+}
