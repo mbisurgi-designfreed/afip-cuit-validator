@@ -3,7 +3,7 @@ const CHECKS = [5, 4, 3, 2, 7, 6, 5, 4, 3, 2];
 function getDigits(cuit) {
     const digits = [];
 
-    for (i = 0; i < cuit.length; i++) {
+    for (let i = 0; i < cuit.length; i++) {
         digits.push(Number.parseInt(cuit[i]));
     }
 
@@ -13,7 +13,7 @@ function getDigits(cuit) {
 function getSumProd(digits) {
     let sumProd = 0;
 
-    for (i = 0; i < CHECKS.length; i++) {
+    for (let i = 0; i < CHECKS.length; i++) {
         sumProd = sumProd + ((CHECKS[i] * digits[i]));
     }
 
