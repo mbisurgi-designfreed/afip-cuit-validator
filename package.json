@@ -1,6 +1,6 @@
 {
   "name": "afip-cuit-validator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Validacion de CUITs para personas fisicas y juridicas",
   "main": "index.js",
   "scripts": {
